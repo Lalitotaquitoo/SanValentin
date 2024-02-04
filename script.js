@@ -13,3 +13,10 @@ function movimiento(){
         btn.classList.replace('move3','posicion_normal')
     }
 }
+document.getElementById("btn1").addEventListener("click", function() {
+    var btn1Text = document.getElementById("btn1").innerHTML;
+    
+    if (btn1Text === "Si") {
+        document.getElementById("btn1").innerHTML = "No";
+    }
+});
